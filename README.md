@@ -30,7 +30,65 @@
 
 ---
 
-# 1. LLM Serving & Inference Runtime
+# 📚 Learning Resources
+## Online Courses
+- [Stanford CS229 Machine Learning | Spring 2026 | Lecture 14: Transformers, In-Context Learning
+](https://www.youtube.com/watch?v=pwQ0l4hFCVI)
+
+## Papers
+
+### Inference
+- [ ] TBD
+
+### Distributed Systems
+- [ ] TBD
+
+### Retrieval
+- [ ] TBD
+
+---
+
+## Blogs
+### Huggingface
+- [Continuous batching](https://huggingface.co/blog/continuous_batching): Brief introduction to continuous batching,  attention mechanism, and KV cache.
+
+### OpenAI
+- [ ] TBD
+
+### Anthropic
+- [ ] TBD
+
+### NVIDIA
+- [ ] TBD
+
+### vLLM
+- [ ] TBD
+
+### Databricks
+- [ ] TBD
+
+---
+
+## Source Code
+
+- [ ] vLLM
+- [ ] SGLang
+- [ ] TensorRT-LLM
+- [ ] Ray
+- [ ] KubeRay
+
+---
+
+## Books
+
+- [ ] Designing Data-Intensive Applications
+- [ ] Kubernetes in Action
+- [ ] CUDA Programming Guide
+
+---
+
+# Knowldge break-down
+## 1. LLM Serving & Inference Runtime
 
 > How do modern inference engines efficiently serve many concurrent LLM requests?
 
@@ -68,7 +126,7 @@
 
 ---
 
-# 2. GPU Systems & Distributed Inference
+## 2. GPU Systems & Distributed Inference
 
 > How do multiple GPUs serve one large model?
 
@@ -124,7 +182,7 @@
 
 ---
 
-# 4. AI Gateway & Production Services
+## 4. AI Gateway & Production Services
 
 > Everything before the request reaches the model.
 
@@ -149,7 +207,7 @@
 
 ---
 
-# 5. Kubernetes & Cloud Infrastructure
+## 5. Kubernetes & Cloud Infrastructure
 
 > How do we deploy and scale AI systems?
 
@@ -181,8 +239,7 @@
 
 ---
 
-# 6. Observability & Reliability
-
+## 6. Observability & Reliability
 > How do we operate AI systems in production?
 
 ### Metrics
@@ -210,59 +267,6 @@
 - [ ] Load Testing
 
 ---
-
-# 📚 Learning Resources
-
-## Papers
-
-### Inference
-- [ ] TBD
-
-### Distributed Systems
-- [ ] TBD
-
-### Retrieval
-- [ ] TBD
-
----
-
-## Engineering Blogs
-
-### OpenAI
-- [ ] TBD
-
-### Anthropic
-- [ ] TBD
-
-### NVIDIA
-- [ ] TBD
-
-### vLLM
-- [ ] TBD
-
-### Databricks
-- [ ] TBD
-
----
-
-## Source Code
-
-- [ ] vLLM
-- [ ] SGLang
-- [ ] TensorRT-LLM
-- [ ] Ray
-- [ ] KubeRay
-
----
-
-## Books
-
-- [ ] Designing Data-Intensive Applications
-- [ ] Kubernetes in Action
-- [ ] CUDA Programming Guide
-
----
-
 # 🛠️ Hands-on Projects
 
 ## Beginner
