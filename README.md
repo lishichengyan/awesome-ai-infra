@@ -80,7 +80,7 @@
 ---
 
 ## Books
-
+- [ ] [The Hundred Page Language Models Book](https://www.thelmbook.com/)
 - [ ] Designing Data-Intensive Applications
 - [ ] Kubernetes in Action
 - [ ] CUDA Programming Guide
