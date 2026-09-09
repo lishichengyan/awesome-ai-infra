@@ -31,11 +31,15 @@
 ---
 
 # 📚 Learning Resources
+Check whether you've read, watched, or studied the materials.
 ## Online Courses
-- [Stanford CS229 Machine Learning | Spring 2026 | Lecture 14: Transformers, In-Context Learning
+- [x] [Stanford CS229 Machine Learning | Spring 2026 | Lecture 14: Transformers, In-Context Learning
 ](https://www.youtube.com/watch?v=pwQ0l4hFCVI)
 
+
 ## Papers
+### Model internals
+- [ ] [Flash Attention - original paper](https://arxiv.org/pdf/2205.14135)
 
 ### Inference
 - [ ] TBD
@@ -50,7 +54,7 @@
 
 ## Blogs
 ### Huggingface
-- [Continuous batching](https://huggingface.co/blog/continuous_batching): Brief introduction to continuous batching,  attention mechanism, and KV cache.
+- [x] [Continuous batching](https://huggingface.co/blog/continuous_batching): Brief introduction to continuous batching,  attention mechanism, and KV cache.
 
 ### OpenAI
 - [ ] TBD
@@ -88,6 +92,18 @@
 ---
 
 # Knowldge break-down
+For each concept, check whether you can answer these three questions:
+
+* **What is it?**
+* **Why is it used?**
+* **When should you use it?**
+
+**Bonus points if you can also:**
+
+* Implement the core idea in pseudocode.
+* Name the relevant frameworks or popular libraries that use or implement it.
+
+
 ## 1. LLM Serving & Inference Runtime
 
 > How do modern inference engines efficiently serve many concurrent LLM requests?
@@ -268,7 +284,7 @@
 
 ---
 # 🛠️ Hands-on Projects
-
+Each project is located in its own folder within this repository.
 ## Beginner
 
 - [ ] Deploy vLLM locally
