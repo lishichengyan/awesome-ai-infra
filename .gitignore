@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated images
+*.png
+
+# Logs
+mcp-server.log
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
