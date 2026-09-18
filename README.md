@@ -72,6 +72,8 @@ Check whether you've read, watched, or studied the materials.
 ### Databricks
 - [ ] TBD
 
+### Wikis
+- [x] [BM25 ranking function](https://en.wikipedia.org/wiki/Okapi_BM25)
 ---
 
 ## Source Code
