@@ -39,6 +39,7 @@ Check whether you've read, watched, or studied the materials.
 
 ## Papers
 ### Model internals
+- [x] [Attention is All You Need](https://arxiv.org/pdf/1706.03762)
 - [ ] [Flash Attention - original paper](https://arxiv.org/pdf/2205.14135)
 
 ### Inference
