@@ -1,14 +1,13 @@
 import nltk
 import torch
 import torch.nn.functional as F
+from attn import Encoder
+from nltk.corpus import gutenberg
 from torch import nn
 
 nltk.download("gutenberg")
-from nltk.corpus import gutenberg
 
 print(gutenberg.fileids())
-
-from attn import Encoder
 
 
 class TinyTransformerClassifier(nn.Module):
@@ -57,15 +56,11 @@ def train():
 
         for text, label in texts:
             tokens = torch.tensor([vocab[word] for word in text.lower().split()])
-
             target = torch.tensor(labels[label])
 
             optimizer.zero_grad()
-
             logits = classifier(tokens)
-
             loss = F.cross_entropy(logits.unsqueeze(0), target.unsqueeze(0))
-
             loss.backward()
             optimizer.step()
 
@@ -86,7 +81,6 @@ def predict(text):
 
 
 train()
-
 for text, _ in texts:
     print(text, "->", predict(text))
 

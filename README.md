@@ -51,6 +51,10 @@ Check whether you've read, watched, or studied the materials.
 ### Retrieval
 - [ ] TBD
 
+## Github
+### vLLM
+- [ ] online vLLM tutorial: https://github.com/jwzheng96/vllm-learning-book
+
 ---
 
 ## Blogs
@@ -94,7 +98,7 @@ Check whether you've read, watched, or studied the materials.
 
 ---
 
-# Knowldge break-down
+# Knowledge break-down
 For each concept, check whether you can answer these three questions:
 
 * **What is it?**
@@ -115,7 +119,7 @@ For each concept, check whether you can answer these three questions:
 - [ ] Continuous Batching
 - [ ] Chunked Prefill
 - [ ] Prefill vs Decode
-- [ ] TTFT / ITL / TPS Metrics
+- [x] TTFT / ITL (inter-token latency) / TTLT / TPS Metrics
 
 ### Memory Management
 - [ ] KV Cache
