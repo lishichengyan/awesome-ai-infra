@@ -1,2 +1,1 @@
-pre-commit==4.3.0
-ruff==0.16.6
+-r ../requirements-dev.txt
