@@ -1,5 +1,8 @@
 # Python
 .venv/
+.venv-dev/
+venv/
+env/
 __pycache__/
 *.pyc
 
