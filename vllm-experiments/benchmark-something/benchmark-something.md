@@ -135,13 +135,17 @@ P99 ITL (ms):                            24.47
 
 Let's try to tweak the parameters and see what will happen - 
 ```
---max-concurrency 1, 2, 4, 8, 16
+Task 1: --max-concurrency 1, 2, 4, 8, 16
 
---random-input-len 128, 512, 1024
+Task 2: --random-input-len 128, 512, 1024
 
---random-output-len 32, 128, 512
+Task 3: --random-output-len 32, 128, 512
 
-Restart the server with --max-num-seqs 4 vs 16 vs 32
+Task 4: Restart the server with --max-num-seqs 4 vs 16 vs 32
+
+Task 5 (optional): Restart the server with --max-num-batched-tokens small vs large
+
+Task 6 (optional): Restart the server with a smaller VLLM_CPU_KVCACHE_SPACE until requests get preempted
 
 --dataset-name prefix_repetition, with prefix caching on vs --no-enable-prefix-caching
 ```
