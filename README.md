@@ -32,16 +32,19 @@
 
 # 📚 Learning Resources
 Check whether you've read, watched, or studied the materials.
-## Online Courses
+## Online Courses / videos
 - [x] [Stanford CS229 Machine Learning | Spring 2026 | Lecture 14: Transformers, In-Context Learning
 ](https://www.youtube.com/watch?v=pwQ0l4hFCVI)
-
+- [x] [Quick intro to RoPE](https://www.youtube.com/watch?v=o29P0Kpobz0)
 
 ## Papers
 ### Model internals
 - [x] [Attention is All You Need](https://arxiv.org/pdf/1706.03762) - everything starts here
 - [ ] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180) - core ideas behind vLLM
 - [ ] [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
+- [x] [Roformer: Enhanced Transformer With Rotray Position Embedding](https://arxiv.org/pdf/2104.09864) - RoPE
+- [x] [GLU Variants Improve Transformer](https://arxiv.org/pdf/2002.05202) - SwiGLU
+- [x] [Pay Attention to MLPs](https://arxiv.org/pdf/2105.08050) - gMLP, gated MLP 
 
 ### Inference
 - [ ] TBD
