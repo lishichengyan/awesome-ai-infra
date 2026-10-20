@@ -56,6 +56,8 @@ Check whether you've read, watched, or studied the materials.
 - [ ] TBD
 
 ## Github
+### Fundamentals
+- [ ] [Tensor-Puzzles](https://github.com/srush/tensor-puzzles) - "a collection of 21 tensor puzzles. Like chess puzzles these are not meant to simulate the complexity of a real program, but to practice in a simplified environment. Each puzzle asks you to reimplement one function in the NumPy standard library without magic."
 ### vLLM
 - [x] online vLLM tutorial: https://github.com/jwzheng96/vllm-learning-book - Read Part I, good for grasping the core ideas. No need to go through every tutorial.
 
